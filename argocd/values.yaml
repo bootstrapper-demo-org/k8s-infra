@@ -1,0 +1,9 @@
+argo-cd:
+  server:
+    extraArgs:
+      - --insecure
+    ingress:
+      enabled: true
+      ingressClassName: ingress-nginx-internal
+      paths:
+        - /

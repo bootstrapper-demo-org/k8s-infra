@@ -1,0 +1,6 @@
+internal:
+  txtOwnerId: TODO
+  domainFilters: [ todo.b-demo.org ]
+  serviceAccount:
+    annotations:
+      eks.amazonaws.com/role-arn: TODO
