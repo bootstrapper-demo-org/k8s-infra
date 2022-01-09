@@ -1,6 +1,6 @@
 internal:
-  txtOwnerId: TODO
-  domainFilters: [ todo.b-demo.org ]
+  txtOwnerId: Z00235991RYBM8H9260XP
+  domainFilters: [ stg.euc1.aws.b-demo.org ]
   serviceAccount:
     annotations:
-      eks.amazonaws.com/role-arn: TODO
+      eks.amazonaws.com/role-arn: arn:aws:iam::200502467877:role/stg-external-dns
