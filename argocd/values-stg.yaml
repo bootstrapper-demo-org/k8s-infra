@@ -21,7 +21,7 @@ argo-cd:
           name: external-dns
     ingress:
       hosts:
-        - argocd.todo.b-demo.org
+        - argocd.stg.euc1.aws.b-demo.org
 
     additionalApplications:
       - name: argocd
